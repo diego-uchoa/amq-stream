@@ -28,7 +28,7 @@ public class Producer {
                 producer.send(record, (data, ex) -> {
                     if (ex != null) {
                         System.out.println("error *********************************");
-                        ex.getStackTrace();
+                        ex.printStackTrace();
                     } else {
                         System.out.println("======================================================");
                         System.out.println("Offset: " + data.offset());
@@ -37,8 +37,6 @@ public class Producer {
             }
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
-        } finally {
-            System.out.println("após envio.");
         }
 
     }

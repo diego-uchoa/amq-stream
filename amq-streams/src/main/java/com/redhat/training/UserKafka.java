@@ -13,4 +13,13 @@ public class UserKafka {
     public int getId(){return id;}
     public String getName(){return name;}
     public String getEmail(){return email;}
+
+    @Override
+    public String toString() {
+        return "UserKafka{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

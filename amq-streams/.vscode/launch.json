@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ChosenCar",
+            "request": "launch",
+            "mainClass": "com.redhat.training.ChosenCar",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch StreamsStarterApp",
+            "request": "launch",
+            "mainClass": "com.redhat.training.StreamsStarterApp",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BatchProducer",
+            "request": "launch",
+            "mainClass": "com.redhat.training.BatchProducer",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumer",
+            "request": "launch",
+            "mainClass": "com.redhat.training.Consumer",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConsumerDLQ",
+            "request": "launch",
+            "mainClass": "com.redhat.training.ConsumerDLQ",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConsumerOffset",
+            "request": "launch",
+            "mainClass": "com.redhat.training.ConsumerOffset",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExampleProducer",
+            "request": "launch",
+            "mainClass": "com.redhat.training.ExampleProducer",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch Producer",
+            "request": "launch",
+            "mainClass": "com.redhat.training.Producer",
+            "projectName": "ams-streams"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProducerAcks",
+            "request": "launch",
+            "mainClass": "com.redhat.training.ProducerAcks",
+            "projectName": "ams-streams"
+        }
+    ]
+}
